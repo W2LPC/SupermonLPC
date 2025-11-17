@@ -1,0 +1,35 @@
+# SupermonLPC  
+*A Modern, Modular RF Command Console for Hamvoip Nodes*
+
+**SupermonLPC** is a ground-up redesign of the classic Supermon2 dashboard for AllStarLink and Hamvoip systems.  
+It delivers a clean, secure, modular, and future-ready interface engineered for Raspberry Pi-based repeater controllers, nodes, and hubs.
+
+## Project Mission  
+To provide the AllStar/Hamvoip community with a modern, maintainable, secure dashboard that breaks free from legacy limitations and offers an expandable ecosystem for RF communications.
+
+## Design Philosophy  
+1. **Modular Architecture** – Each feature is its own module and its own webpage, ensuring zero cross-contamination between systems.  
+2. **Clean Install & Coexistence** – Installs to `/srv/http/supermonlpc` and does *not* modify or replace legacy dashboards.  
+3. **Modern UI / Modern Code** – Clean theme, dropdown navigation, secure login, weather module, node engine, “Listen Live” integration.  
+4. **Digital Voice Ecosystem** – Expandable to DMR, D-STAR, YSF, P25, M17, hotspots, APRS, LoTW, rig control, diagnostics, pop-up alerts, friends-network monitoring.  
+5. **Built for Hamvoip** – Optimized for Pi 3B / 3B+, HTTPS, multi-node environments.
+
+## Project Goals  
+- **Phase 1 – Core System** – UI, login, navigation, node/connection modules, weather, audio link  
+- **Phase 2 – Extended Modules** – Digital-voice tools, diagnostics, file sharing, admin utilities  
+- **Phase 3 – Ecosystem Integration** – Friends-network, notifications, multi-node awareness  
+
+## Lou C:\ Branding  
+Subtle brand integration acknowledging the origin of the project and its developer.
+
+## Installation  
+SupermonLPC is designed for clean Hamvoip installations. Test images or clones are recommended for beta-stage development, as early builds may require destructive installs.
+
+## License  
+Open-source licensing with optional donations to support continued development.
+
+## Status  
+Active development. Modules are being built and tested one at a time. Framework, module isolation, and migration logic are functional and undergoing refinement.
+
+## Acknowledgements  
+The Hamvoip community, repeater owners, RF engineers, digital-voice experimenters, and the spirit of the *Department of Advanced Shenanigans*.
